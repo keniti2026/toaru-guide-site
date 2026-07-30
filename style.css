@@ -819,6 +819,35 @@ p { margin: 0; }
   .anime-entry { grid-template-columns: 1fr; }
 }
 
+.review-links {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-soft);
+}
+.review-links-label {
+  font-family: var(--font-jp);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-faint);
+  margin-bottom: 10px;
+}
+.review-links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.review-links-list a {
+  font-family: var(--font-jp);
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--cyan);
+  border: 1px solid var(--border);
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+.review-links-list a:hover { background: rgba(6,182,212,0.08); }
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--bg-alt);
